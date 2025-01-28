@@ -1,0 +1,28 @@
+{
+  "chains": [
+    {
+      "name": "Ethereum",
+      "type": "ethereum",
+      "rpc_url": "https://mainnet.infura.io/v3/YOUR_INFURA_PROJECT_ID",
+      "bridge": "0xYourEthereumBridgeContract",
+      "event_abi": "./abis/EthereumABI.json",
+      "start_block": 13000000
+    },
+    {
+      "name": "Polkadot",
+      "type": "substrate",
+      "rpc_url": "wss://rpc.polkadot.io",
+      "bridge": "0xYourPolkadotBridgeModule",
+      "event_abi": "./abis/PolkadotABI.json",
+      "start_block": 900000
+    }
+  ],
+  "relayers": {
+    "ethereum": {
+      "private_key": "YOUR_PRIVATE_KEY"
+    },
+    "substrate": {
+      "keyring": "YOUR_POLKADOT_ACCOUNT_SEED"
+    }
+  }
+}
