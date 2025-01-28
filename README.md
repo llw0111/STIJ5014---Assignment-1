@@ -53,7 +53,7 @@ Ensure you have the following tools installed:
 1. Clone the Substrate node template:
 
 ```bash
-git clone https://github.com/substrate-developer-hub/substrate-node-template
+git clone https://github.com/llw0111/cross-chain-bridge-project
 cd substrate-node-template
 ```
 
